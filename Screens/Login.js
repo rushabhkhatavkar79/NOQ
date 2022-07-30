@@ -38,7 +38,7 @@ export const Login = ({navigation}) => {
                 navigation.navigate("Pin");
                 await AsyncStorage.setItem("loggedIn", JSON.stringify("true"));
             }else{
-                alert("UserName or password is wrong")
+                alert("User name or password is wrong")
             }
     }
 

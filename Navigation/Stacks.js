@@ -42,7 +42,7 @@ if (loading === false) {
         name="Pin" 
         component={Pin} 
         options={{ 
-            title: 'Rushabh Resto n Bar',
+            title: 'NOQ',
             headerShown:true,
             headerBackTitleVisible:false,
             headerShadowVisible:false,
@@ -91,7 +91,7 @@ if (loading === false) {
         name="Pin" 
         component={Pin} 
         options={{ 
-            title: 'Rushabh Resto n Bar',
+            title: 'NOQ',
             headerShown:true,
             headerBackTitleVisible:false,
             headerShadowVisible:false,

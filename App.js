@@ -16,8 +16,8 @@ import { paymentTypesCounter, sidebarSettings, terminalSettings } from './data';
   Icon.loadFont();
  useEffect(()=>{
   async function saveValue() {
-    await AsyncStorage.setItem("userName", JSON.stringify("rushabh"));
-    await AsyncStorage.setItem("password", JSON.stringify("rushabh"));
+    await AsyncStorage.setItem("userName", JSON.stringify("demo"));
+    await AsyncStorage.setItem("password", JSON.stringify("demo"));
     
     const getTermianlSetting = await AsyncStorage.getItem("terminalSettings");
     if(getTermianlSetting === null){
